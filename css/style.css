@@ -1,0 +1,460 @@
+body{
+    background-color: #F7F8FA;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.topbar{
+    background-color: #316DC3;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.topbar i{
+    color: white;
+    margin-left: 25px;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.topbar p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.topbar a{
+    background-color: white;
+    padding: 6px;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.topbar a:hover{
+    background-color: white;
+    padding: 6px;
+    font-size: 12px;
+    text-decoration: none;
+    color: black !important;
+}
+
+.topbar div{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.sec-1{
+    width: auto;
+    margin-left: 100px;
+}
+
+.sec-2{
+    width: auto;
+    text-align: center;
+    margin-left: 130px;
+    margin-right: 50px;
+}
+
+
+.sec-3{
+    width: auto;
+}
+
+.nav-menu-my ul li{
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 8px 15px 8px 15px;
+    font-weight: 500;
+    border-radius: 50px;
+    position: relative;
+}
+
+.nav-menu-my ul li a{
+    color: black;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-menu-my ul li:hover{
+    background-color: #316DC3;
+    color: white !important;
+    cursor: pointer;
+}
+
+.nav-menu-my ul li:hover > a{
+    color: white;
+}
+
+
+.active{
+    background-color: #316DC3;
+    color: white !important;
+}
+
+.navbar{
+    background-color: #F7F8FA !important;
+    box-sizing: border-box;
+    position: sticky !important;
+    top: 0px;
+    z-index: 100;
+    border-bottom: 1px solid rgba(182, 179, 179, 0.267);
+}
+
+.logo{
+    padding: 0px 120px 5px 100px;
+}
+
+.nav-menu-my{
+    margin-left: 50px;
+    position: relative;
+    top: 8px;
+}
+
+.about-drp{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    z-index: 99;
+    background-color: white;
+    width: 180px;
+    display: none;
+}
+
+.about-drp li{
+    display: block !important;
+    border-radius: 0 !important;
+    position: relative;
+    transition: 0.5s linear;
+    font-size: 15px;
+}
+
+.about-drp li:hover{
+    padding-left: 25px;
+}
+
+li:hover > ul{
+    display: block !important;
+}
+
+a + i{
+    color: black;
+    float: right !important;
+    margin-top: 5px;
+}
+
+li:hover > i{
+    color: white !important;
+}
+
+.next-sibling{
+    top: 0;
+    left: 180px;
+}
+
+.donor-down{
+    top: 38px;
+}
+
+.text-slide{
+    background-color: #316DC3;
+}
+
+marquee p{
+    display: inline
+}
+
+.intro-sec{
+    background-color: #F7F8FA;
+}
+
+.favicon-my img::before{
+    border: 2px solid green;
+}
+
+.favicon-my img::after{
+    border: 2px solid green;
+    height: 10px;
+    width: 200px;
+}
+
+.number-sec{
+    background-color: #2655E8;
+}
+
+.number-sec img{
+    height: 40px;
+}
+
+.number-sec span{
+    color: #00FF00;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.my-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.178), 0 6px 20px 0 rgba(0, 0, 0, 0.164);
+    background-color: white;
+}
+
+.my-cards-2{
+    background-color: rgba(220, 222, 224, 0.295);
+    border: 1px solid rgba(128, 128, 128, 0.212);
+    display: flex;
+}
+
+.h-1{
+    border-bottom: 2px solid #427900;
+    width: 50px;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+.h-2{
+    border-bottom: 1px solid rgba(44, 56, 44, 0.199);
+    width: 90%;
+    position: absolute;
+    top: 37px;
+}
+
+.h-3{
+    border-bottom: 1px solid rgba(170, 168, 168, 0.527);
+    width: 90%;
+    position: absolute;
+    top: 28px;
+}
+
+.text-slide-up marquee{
+    height: 150px;
+    width: 80%;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.gallery-images{
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery-img{
+    width: 220px;
+    opacity: 1;
+    transition: all 0.5s linear;
+}
+
+.gallery-img:hover{
+    opacity: 0.5;
+}
+
+.gallery-images i{
+    color: white;
+    background-color: #316DC3;
+    border-radius: 50%;
+}
+
+.icon-box{
+    position: relative;
+    left: 80px;
+    top: -175px;
+    height: 100%;
+    transition: top 0.2s linear;
+}
+
+.gallery-images:hover > div{
+    top: -100px;
+}
+
+.icon-border-box{
+    text-align: center;
+}
+
+.sm-border{
+    border-top: 2px solid #427900;
+    width: 30px;
+}
+
+.footer{
+    background-color: #25272E;
+}
+
+.footer p , .footer h6{
+    text-decoration: none;
+    color: rgb(175, 173, 173);
+}
+
+.footer-bottom{
+    background-color: #316DD9;
+}
+
+.nav-icon{
+    display: none;
+}
+
+.nav-icon label{
+    cursor: pointer;
+}
+
+.mob-nav{
+    display: none;
+}
+
+.bottom-to-top-btn{
+    background-color: rgba(199, 194, 194, 0.438);
+    padding: 5px 12px 5px 12px;
+    float: right;
+    position: sticky;
+    top: 90%;
+    right: 10px;
+    z-index: 200;
+}
+
+.bottom-to-top-btn:hover{
+    background-color: rgba(58, 57, 57, 0.39);
+}
+
+@media only screen and (max-width: 910px) {
+
+    .logo{
+        padding-left: 0px;
+    }
+
+    .nav-menu-my {
+        display: none;
+    }
+
+    .nav-icon{
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+    }
+
+    .bottom-to-top-btn{
+        top: 90%;
+    }
+
+    .mob-nav{
+        display: flex;
+        flex-direction: column;
+        height: 360px;
+        overflow-y: scroll;
+        position: sticky !important;
+        top: 72px;
+        z-index: 200 !important;
+        background-color: white;
+    }
+
+    .mob-nav div{
+        width: 100%;
+        position: relative;
+        padding: 10px 0 10px 20px;
+        border-bottom: 1px solid rgb(218, 215, 215);
+        z-index: 100;
+    }
+
+    .mob-nav div:hover{
+        background-color: #316DC3;
+        border-bottom: 1px solid white;
+    }
+
+    .mob-nav div:hover > a{
+        color: white;
+    }
+
+    .mob-nav div:hover > i{
+        color: white;
+        border-left: 1px solid white;
+    }
+
+    .mob-active{
+        background-color: #316DC3 !important;
+    }
+
+    .mob-active a{
+        color: white !important;
+    }
+
+    .mob-nav div a{
+        color: black;
+        text-decoration: none;
+        font-weight: 450;
+    }
+
+    .mob-drp-ico{
+        height: 100%;
+        border-left: 1px solid rgb(218, 215, 215);
+        position: absolute;
+        top: -5px;
+        right: 0px;
+        padding: 15px 25px 0 25px;
+        font-weight: 700;
+    }
+
+
+    .mob-drp-box div{
+        padding: 0px;
+        padding: 5px 0 5px 50px;
+        transition: padding 0.2s linear;
+        display: block;
+    }
+
+    .mob-drp-box div:hover{
+        padding-left: 60px;
+    }
+
+    .mob-drp-box div a{
+        font-size: 13px;
+        color: rgb(70, 69, 69);
+    }
+
+    .icon-right{
+        padding: 0px;
+        padding: 7px 27px 5px 27px;
+        font-weight: 500;
+    }
+
+    .next-to.next div{
+        padding-left: 90px;
+    }
+
+    .hover-padding{
+        padding-left: 70px !important;
+    }
+
+    .hover-padding:hover{
+        padding-left: 80px !important;
+    }
+
+    .hover-padding-1{
+        padding-left: 90px !important;
+    }
+
+    .hover-padding-1:hover{
+        padding-left: 100px !important;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 1220px) {
+
+    .topbar{
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+        padding-bottom: 10px;
+    }
+
+    .topbar div{
+        margin-left: 0;
+        text-align: center;
+    }
+    
+}
